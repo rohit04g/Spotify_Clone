@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="logo.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">HOME</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <a href="#">SEARCH</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="options">
+                    <div class="lib-option nav-option">
+                       <img src="library_icon.png" alt="libraryicon">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icons">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-boxes">
+                    <div class="box">
+                        <div class="box-p1">Create Your First Playlist</div>
+                        <div class="box-p2">It's Easy, We'll Help You </div>
+                        <button class="badge">Create Playlist</button>
+                    </div>
+                    <div class="box-1">
+                        <div class="box-p1">Let's Find Some Podcasts To Follow</div>
+                        <div class="box-p2">We'll Keep You Updated On New Episodes</div>
+                        <button class="badge">Browse Podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="maincontent">
+            <div class="sticky-nav">
+                <div class="nav-arrows">
+                    <img src="backward_icon.png" alt="backward">
+                    <img src="forward_icon.png" alt="forward" class="hide">
+                </div>
+                <div class="nav-download-btn">
+                    <button class="badge nav-item hide">Explore Premium</button>
+                    <button class="badge nav-item">Install App   <i class="fa-solid fa-arrow-down" ></i></button>
+                    <i class="fa-regular fa-circle-user nav-item"></i>
+                </div>
+            </div>
+                <h2>Recently Played</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="card1img.jpeg" class="card-img">
+                        <p class="card-title ">Top 50-Global</p>
+                        <p class="card-info">Yours Daily Updates Of Most Played Tracks</p>
+                    </div>
+                </div>
+
+                <br>
+                <h2>Trending Near You</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="card2img.jpeg" class="card-img">
+                        <p class="card-title ">Mahiye Jinna Sohna</p>
+                        <p class="card-info">Melodious Track From Bollywood</p>
+                    </div>
+                    <div class="card">
+                        <img src="card3img.jpeg" class="card-img">
+                        <p class="card-title ">Mere Paas Tum Ho</p>
+                        <p class="card-info">Fall In Love With 1990'S</p>
+                    </div>
+                    <div class="card">
+                        <img src="card4img.jpeg" class="card-img">
+                        <p class="card-title ">Naa Ready</p>
+                        <p class="card-info">BlockBuster Song From  Movie Leo</p>
+                    </div>
+                    <div class="card">
+                        <img src="card2img.jpeg" class="card-img">
+                        <p class="card-title ">Mahiye Jinna Sohna</p>
+                        <p class="card-info">Fall In Love With 1990'S</p>
+                    </div>
+                    <div class="card">
+                        <img src="card4img.jpeg" class="card-img">
+                        <p class="card-title ">Naa Ready</p>
+                        <p class="card-info">BlockBuster Song From  Movie Leo</p>
+                    </div>
+                </div>
+                <br>
+                <h2>Featured Charts</h2>
+                <div class="cards-container">
+                    <div class="card">
+                        <img src="card5img.jpeg" class="card-img">
+                        <p class="card-title ">Top Songs Global</p>
+                        <p class="card-info">Yours Daily Updates Of Most Played Tracks</p>
+                    </div>
+                    <div class="card">
+                        <img src="card6img.jpeg" class="card-img">
+                        <p class="card-title ">Top Songs-India</p>
+                        <p class="card-info">Yours Daily Updates Of Most Played Tracks</p>
+                    </div>
+                    <div class="card">
+                        <img src="card1img.jpeg" class="card-img">
+                        <p class="card-title ">Top 50-Global</p>
+                        <p class="card-info">Yours Daily Updates Of Most Played Tracks</p>
+                    </div>
+                    
+                
+        </div>
+      <div class="footer">
+        <div class="line"></div>
+      </div>
+      
+        <div class="musicplayer">
+            <div class="album">
+                <img src="card4img.jpeg" alt="Song">
+                <div class="song-info">Naa Ready 
+                    <div class="song-singer">Anirudh Ravichander</div>
+                </div>
+            </div>
+            <div class="Player">
+                <div class="player-controls">
+                    <img src="player_icon1.png" alt="icon" class="player-icon">
+                    <img src="player_icon2.png" alt="icon" class="player-icon">
+                    <img src="player_icon3.png" alt="icon" class="player-icon" style="opacity: 1; height: 2rem;">
+                    <img src="player_icon4.png" alt="icon" class="player-icon">
+                    <img src="player_icon5.png" alt="icon" class="player-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="current-time">00:00</span>
+                    <input type="range" min="0" max="100" class="progress-bar">
+                    <span class="total-time">3:22</span>
+                </div>
+            </div>
+
+        </div>
+       
+       
+        
+    </div>
+</body>
+</html>
